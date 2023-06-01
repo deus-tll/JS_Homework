@@ -78,19 +78,8 @@ for (let i = 0; i < array.length; i++)
   }
 }
 
-
 console.log("Jagged Array", array);
 
 
-
 let sortedArray = sortJaggedArray(fullCopyArray(array));
-
-// for (let i = 0; i < sortedArray.length; i++) {
-//   sortedArray[i].sort(function(a, b) {
-//     return a - b;
-//   });
-// }
-
-
-
 console.log("Sorted Jagged Array", sortedArray);

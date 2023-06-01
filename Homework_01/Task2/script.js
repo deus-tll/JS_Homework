@@ -155,6 +155,7 @@ for (let i = 0; i < questions.length; i++)
       if ((nonBurnableQuestions[j] - 1) === i) 
       {
         nonBurnable = stake;
+        nonBurnableQuestions.splice(j, 1);
       }
     }
 

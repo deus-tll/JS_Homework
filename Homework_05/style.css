@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid green;
+  padding: 5px;
+  text-align: center;
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thCells {
+  background-color: lawngreen;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.tdCells {
+  background-color: whitesmoke;
+  color: green;
+}
+
+.highlight {
+  background-color: orangered;
+  color: white;
+}
+.highlight-rows-cols {
+  background-color: black;
+}

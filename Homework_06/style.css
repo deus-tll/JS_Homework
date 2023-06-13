@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.patch {
+  height: 27%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 0 5px 5px;
+  display: grid;
+  grid-template-columns: 53% auto;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin-top: 10px;
+}
+
+.timer-inner-container {
+  display: flex;
+}
+
+.timer-item {
+  display: grid;
+  grid-template-rows: 50% auto;
+  text-align: center;
+}
+
+.timer-value {
+  font-size: 25pt;
+  font-weight: bold;
+}
+
+.timer-label {
+  font-size: 10pt;
+}
+
+.timer-colon {
+  font-size: 18pt;
+  margin-top: 5px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin-top: 15px;
+}
+
+.button-confirm {
+  width: 120px;
+  height: 45px;
+  background-color: rgb(10, 153, 10);
+  color: white;
+  padding: 3.5%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-size: 17pt;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.button-confirm:hover {
+  background-color: green;
+}
+
+.button-confirm:active {
+  background-color: darkgreen;
+  color: whitesmoke;
+}
+
+.banner-animation {
+  animation-name: slide-in;
+  animation-duration: 1s;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(450px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

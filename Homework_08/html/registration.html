@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="..//styles/reset.css">
+  <link rel="stylesheet" href="..//styles/style.css">
+</head>
+<body>
+  
+  <form id="main_form">
+    <h4 id="label_info">Registration</h4>
+    <input id="email_address" type="email" placeholder="Email Address">
+    <input id="login" type="text" placeholder="Login">
+    <input id="password" type="password" placeholder="Password">
+    <input id="confirm_password" type="password" placeholder="Confirm Password">
+    <input id="phone_number" type="text" placeholder="Phone Number(+123456789012)">
+    <label id="label_error"></label>
+    <input id="submit_btn" type="button" value="Submit">
+    <h5 class="go-login-registration">
+      Already have an account?
+      <a class="go-login-registration-click" href="..//html/login.html">Sign In</a>
+    </h5>
+  </form>
+
+  <script src="..//scripts/validator.js"></script>
+  <script src="..//scripts/validateRegistrationForm.js"></script>
+</body>
+</html>

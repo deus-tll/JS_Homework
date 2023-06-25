@@ -1,0 +1,161 @@
+html, body {
+  height: 100%;
+  background-color: whitesmoke;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.currency {
+  width: 850px;
+  border: 5px solid powderblue;
+  border-radius: 6px;
+  background-color: rgb(221, 160, 221);
+  margin: 0 auto;
+}
+
+.currency-header {
+  height: 25vh;
+  border: 3px solid red;
+  border-radius: 6px;
+  background-color: ghostwhite;
+  margin: 10px;
+}
+
+.converter {
+  height: 70%;
+}
+
+.currency-body {
+  border: 3px groove green;
+  border-radius: 6px;
+  background-color: ghostwhite;
+  margin: 10px;
+}
+
+.currency-table-list {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.currency-table-list th, .currency-table-list td {
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.currency-table-list tr:hover {
+  background-color: black;
+  color: white;
+}
+
+.top-panel {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.body-header-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.body-header-text > h2 {
+  color: orange;
+}
+
+.body-input-date {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.body-input-date input[type="date"] {
+  width: 145px;
+  font-size: 13pt;
+}
+
+.main-panel {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.block-from {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items:end;
+}
+
+.block-to {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items:end;
+  justify-content: right;
+}
+
+.block-arrows {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-end;
+}
+
+.main-panel input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  font-size: 20pt;
+  border-style: none;
+  background-color: ghostwhite;
+}
+
+.main-panel input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main-panel input[type="number"]:focus {
+  outline: none;
+}
+
+.main-panel select {
+  border-style: none;
+  background-color: ghostwhite;
+  font-size: 15pt;
+}
+
+.input-text {
+  margin-bottom: 15px;
+}
+
+.controls-from {
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.controls-to {
+  padding-bottom: 25px;
+  padding-right: 25px;
+}
+
+.arrows {
+  font-size: 32pt;
+  font-weight: bolder;
+  padding-bottom: 15px;
+}

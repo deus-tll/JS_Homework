@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.selected {
+  background-color: rgb(50, 170, 206);
+}
